@@ -1,0 +1,37 @@
+{
+  "name": "prueba-xpertgroup",
+  "version": "1.0.0",
+  "description": "Prueba desarrollador backend xpertgroup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "author": "Daniel Munoz",
+  "license": "ISC",
+  "dependencies": {
+    "@decorators/express": "^3.0.0",
+    "@thatapicompany/thecatapi": "^1.0.2",
+    "@types/cors": "^2.8.17",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "https": "^1.0.0",
+    "mongodb": "^5.9.2",
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.8.0",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
